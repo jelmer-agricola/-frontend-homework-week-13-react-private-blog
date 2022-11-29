@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       Maak hier jouw prachtige blog-applicatie!
-        eerste push
+        aanpassing
     </div>
   );
 }
