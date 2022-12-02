@@ -1,3 +1,5 @@
+[//]: # (https://github.com/jelmer-agricola/-frontend-homework-week-13-react-private-blog/pull/1)
+
 # Opdrachtbeschrijving
 
 ## Inleiding
@@ -41,12 +43,13 @@ De blog-applicatie heeft op dit moment nog geen pagina's en ook geen routing. Di
 * Zorg ervoor dat er *content* op die pagina's komt te staan:
     * Maak een navigatiebalk met de links naar de Home Pagina, Login pagina en Blog Overzicht pagina. Zorg dat deze op
       iedere pagina te zien is.
-    * De **Login pagina** bevat simpelweg een knop met "Inloggen" die de gebruiker doorstuurt naar overzichtspagina;
+    * De **Login pagina** bevat simpelweg een knop met "Inloggen" die de gebruiker doorstuurt naar overzichtspagina; 
     * De **Blog Overzicht pagina** bevat de totale hoeveelheid posts (*getal*) en alle blog-titels. De titels zijn links
-      die je doorlinken naar die specifieke post.
-    * De **Blogpost pagina** is een component dat, op basis van de parameter in de url (*dynamic parameters*), de juiste
-      blogpost ophaalt uit de meegeleverde JSON data, en deze weergeeft . De JSON data kun je simpelweg importeren en
-      gebruiken als een array met objecten:
+      die je doorlinken naar die specifieke post. 
+* 
+  * De **Blogpost pagina** is een component dat, op basis van de parameter in de url (*dynamic parameters*), de juiste
+    blogpost ophaalt uit de meegeleverde JSON data, en deze weergeeft . De JSON data kun je simpelweg importeren en
+    gebruiken als een array met objecten:
 
 ```
 import posts from '../data/posts.json';
@@ -75,7 +78,7 @@ We gaan er ook voor zorgen dat de navigatiebalk zich aanpast wanneer een gebruik
 
 - Wanneer de bezoeker *niet* ingelogd is, moet er een "inloggen"-link in de navigatie aanwezig zijn. Deze wijst naar de
   Login pagina.
-- Wanneer de bezoeker *niet* ingelogd is, is de link naar de Blog Overzichtpagina *niet* aanwezig.
+- Wanneer de bezoeker *niet* ingelogd is, is de link naar de Blog Overzichtpagina *niet* aan
 - Als een bezoeker *wel* ingelogd is, moet er een "uitloggen"-knop in de navigatie staan. Als je daarop klikt wordt de
   gebruiker direct uitgelogd en naar de home-pagina gestuurd.
 
