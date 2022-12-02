@@ -78,7 +78,7 @@ We gaan er ook voor zorgen dat de navigatiebalk zich aanpast wanneer een gebruik
 
 - Wanneer de bezoeker *niet* ingelogd is, moet er een "inloggen"-link in de navigatie aanwezig zijn. Deze wijst naar de
   Login pagina.
-- Wanneer de bezoeker *niet* ingelogd is, is de link naar de Blog Overzichtpagina *niet* aanwezig.
+- Wanneer de bezoeker *niet* ingelogd is, is de link naar de Blog Overzichtpagina *niet* aan
 - Als een bezoeker *wel* ingelogd is, moet er een "uitloggen"-knop in de navigatie staan. Als je daarop klikt wordt de
   gebruiker direct uitgelogd en naar de home-pagina gestuurd.
 

@@ -7,7 +7,7 @@ function Navigation({isAuth, toggleAuth}) {
 
     function signOut() {
         toggleAuth(false);
-     navigate('/');
+        navigate('/');
 
     }
 
@@ -18,13 +18,20 @@ function Navigation({isAuth, toggleAuth}) {
                 </NavLink>
                 </li>
 
-                {isAuth ?  <li><NavLink to="/overview"
-                                        className={({isActive}) => isActive ? 'active-link' : 'default-link'}>Blogposts
-                </NavLink>
-                </li>:
+                {isAuth ? <> <li><NavLink to="/overview"
+                    >Blogposts
+                    </NavLink>
+                    </li>
+                <li>
+                    <button type="button" onClick={signOut}>
+                        Uitloggen
+                    </button>
+                </li>
+                    </>
+                    :
                     <li>
                         <NavLink to="/login"
-                                 className={({isActive}) => isActive ? 'active-link' : 'default-link'}>Login
+                        >Login
                         </NavLink>
 
                     </li>
@@ -33,17 +40,11 @@ function Navigation({isAuth, toggleAuth}) {
 
 
 
-                <li>
-                    <button type="button" onClick={signOut}>
-                        Uitloggen
-                    </button>
-                </li>
-
 
             </ul>
 
         </nav>
-);
+    );
 }
 
 export default Navigation
